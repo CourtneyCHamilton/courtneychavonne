@@ -18,9 +18,11 @@ a:active {
 
 body {
     width: auto;
-    background-color: black;
+    background-image: url('images/IDEbackgroundedit.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-color: #000000;
     min-height: -webkit-calc(100% - 100px);     /* Chrome */
     min-height: -moz-calc(100% - 100px);     /* Firefox */
     min-height: calc(100% - 100px);     /* native */
@@ -46,13 +48,6 @@ header {
     bottom: 0;
     clear: both;
     float: right;
-}
-
-#backgroundArt {
-    position: fixed;
-    float: left;
-    margin-top: 2%;
-    z-index: -10;
 }
 
 .headerText {
@@ -81,10 +76,10 @@ header {
     z-index: -50;
     width: 75%;
     margin-top: 150px;
-    margin-right: 15px;
+    margin-right: 0px;
     margin-bottom: 50px;
     margin-left: 20%;
-    float: left;
+    float: right;
     padding: 10px;
     background-color: rgba(64, 64, 64, .5);
 }
@@ -107,8 +102,6 @@ header {
     text-shadow: 2px 2px 8px #000000;
     font-family: 'Aboreto', cursive;
     font-size: 175%;
-    text-align: justify;
-    text-justify: inter-character;
 }
 
 #sidebarBox {
@@ -123,7 +116,7 @@ header {
 
 .bodyText {
     font-family: 'Aboreto', cursive;
-    font-size: 125%;
+    font-size: 150%;
     color: darkgray;
     text-align: center;
 }
@@ -131,13 +124,14 @@ header {
 .greyContentText {
     color: darkgrey;
     font-family: 'PT Sans Narrow', sans-serif;
-    text-align: center;
+    font-size: 150%;
 }
 
 .greyContentTextLeft {
     color: darkgrey;
     font-family: 'PT Sans Narrow', sans-serif;
     text-align: left;
+    font-size: 150%;
 }
 
 .centerText {
